@@ -3,4 +3,4 @@
 	url = https://github.com/bigscience-workshop/Megatron-DeepSpeed.git
 [submodule "cli/endpoints/online/mbart-german-grammar-corrector/model"]
 	path = cli/endpoints/online/mbart-german-grammar-corrector/model
-	url = git@hf.co:0qln/mbart-german-grammar-corrector
+	url = https://huggingface.co/0qln/mbart-german-grammar-corrector
