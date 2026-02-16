@@ -1,0 +1,10 @@
+$schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
+name: blue
+endpoint_name: WS-mbart-grammar-corrector-de
+model: azureml:mbart-german-grammar-corrector:1
+code_configuration:
+  code: ../../mbart-german-grammar-corrector/onlinescoring/
+  scoring_script: score.py
+environment: azureml:mbart-german-grammar-corrector--env:1
+instance_type: STANDARD_D2As_V4
+instance_count: 1

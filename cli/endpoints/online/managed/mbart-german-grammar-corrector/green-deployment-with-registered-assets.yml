@@ -1,10 +1,10 @@
 $schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
-name: blue
-endpoint_name: my-endpoint-09-01-2026
-model: azureml:my-model:1
+name: green
+endpoint_name: WS-mbart-grammar-corrector-de
+model: azureml:my-model:2
 code_configuration:
-  code: ../../model-1/onlinescoring/
+  code: ../../model-2/onlinescoring/
   scoring_script: score.py
 environment: azureml:my-env:1
-instance_type: STANDARD_DS2_V2
+instance_type: Standard_DS3_v2
 instance_count: 1

@@ -1,0 +1,3 @@
+$schema: https://azuremlschemas.azureedge.net/latest/model.schema.json
+name: sakyua-times--mbart-german-grammar-corrector
+path: ../../mbart-german-grammar-corrector/

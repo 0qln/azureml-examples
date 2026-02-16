@@ -1,13 +1,11 @@
 $schema: https://azuremlschemas.azureedge.net/latest/managedOnlineDeployment.schema.json
 name: blue
-endpoint_name: sakuya-times-dev
+endpoint_name: WS-mbart-grammar-corrector-de
 model:
   path: ../../model-1/model/
 code_configuration:
   code: ../../model-1/onlinescoring/
   scoring_script: score.py
-environment:
-  conda_file: ../../model-1/environment/conda.yaml
-  image: mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu22.04:latest
+environment: azureml://registries/azureml/environments/sklearn-1.5/labels/latest
 instance_type: Standard_DS3_v2
 instance_count: 1

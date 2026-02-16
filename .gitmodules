@@ -1,3 +1,6 @@
 [submodule "best-practices/largescale-deep-learning/Training/Bloom-Pretrain/src/Megatron-DeepSpeed"]
 	path = best-practices/largescale-deep-learning/Training/Bloom-Pretrain/src/Megatron-DeepSpeed
 	url = https://github.com/bigscience-workshop/Megatron-DeepSpeed.git
+[submodule "cli/endpoints/online/mbart-german-grammar-corrector/model"]
+	path = cli/endpoints/online/mbart-german-grammar-corrector/model
+	url = git@hf.co:0qln/mbart-german-grammar-corrector
